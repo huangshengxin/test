@@ -56,14 +56,12 @@
 // }).catch(err => {
 //   alert(`报错：${err}`)
 // })
-class A {
-  constructor(time) {
-    this.time = time
-  }
-  work() {
-    return this.time
-  }
+//货运算法
+function work(a,b,c){
+  let x,y
+  x = ((a*b*c)+(a*c*c)-(b*c*c))/(2*((a*b)+(a*c)+(b*c)))
+  y = ((a*b*c)-(a*c*c)+(b*c*c))/(2*((a*b)+(a*c)+(b*c)))
+  console.log(x)
+  console.log(y)
 }
-function a(){
-  
-}
+work(2,3,6)
