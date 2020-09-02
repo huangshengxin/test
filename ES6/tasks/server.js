@@ -4,7 +4,7 @@ import liveserver from 'gulp-live-server';
 import args from './util/args';
 
 gulp.task('serve',(cb)=>{
-  if(!args.watch) return cb();
+  if(!args.watch) return cb();//判断是否处于监听状态
 
   var server = liveserver.new(['--harmony','server/bin/www']);
   server.start();

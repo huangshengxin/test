@@ -43,10 +43,10 @@
 
 {
   // 新增API
-  console.log('字符串',Object.is('abc','abc'),'abc'==='abc');
+  console.log('字符串',Object.is('abc','abc'),'abc'==='abc');//is比较
   console.log('数组',Object.is([],[]),[]===[]);
 
-  console.log('拷贝',Object.assign({a:'a'},{b:'b'}));
+  console.log('拷贝',Object.assign({a:'a'},{b:'b'}));//assign浅拷贝
 
   let test={k:123,o:456};
   for(let [key,value] of Object.entries(test)){

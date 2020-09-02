@@ -1,9 +1,9 @@
 {
-  // 声明
+  // 声明变量独一无二
   let a1=Symbol();
   let a2=Symbol();
   console.log(a1===a2);
-  let a3=Symbol.for('a3');
+  let a3=Symbol.for('a3');//判断是否注册过
   let a4=Symbol.for('a3');
   console.log(a3===a4);
 }

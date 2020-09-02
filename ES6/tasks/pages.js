@@ -4,7 +4,7 @@ import livereload from 'gulp-livereload';
 import args from './util/args';
 
 gulp.task('pages',()=>{
-  return gulp.src('app/**/*.ejs')
+  return gulp.src('app/**/*.ejs')//打开app目录下所有文件
     .pipe(gulp.dest('server'))
     .pipe(gulpif(args.watch,livereload()))
 })

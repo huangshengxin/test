@@ -16,6 +16,6 @@ function last(){
   console.log(PI,k);
 }
 
-
+//let 不能重复声明 const 只读不能改修 声明时赋值 块状作用域
 // test();
 last();

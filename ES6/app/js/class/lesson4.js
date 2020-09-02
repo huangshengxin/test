@@ -59,7 +59,7 @@
 }
 
 {
-  console.log('1'.padStart(2,'0'));
+  console.log('1'.padStart(2,'0'));//补白
   console.log('1'.padEnd(2,'0'));
 }
 
@@ -76,6 +76,6 @@
 }
 
 {
-  console.log(String.raw`Hi\n${1+2}`);
+  console.log(String.raw`Hi\n${1+2}`);//去除\
   console.log(`Hi\n${1+2}`);
 }

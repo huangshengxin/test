@@ -57,11 +57,21 @@
 //   alert(`报错：${err}`)
 // })
 //货运算法
-function work(a,b,c){
-  let x,y
-  x = ((a*b*c)+(a*c*c)-(b*c*c))/(2*((a*b)+(a*c)+(b*c)))
-  y = ((a*b*c)-(a*c*c)+(b*c*c))/(2*((a*b)+(a*c)+(b*c)))
-  console.log(x)
-  console.log(y)
+// function work(a,b,c){
+//   let x,y
+//   x = ((a*b*c)+(a*c*c)-(b*c*c))/(2*((a*b)+(a*c)+(b*c)))
+//   y = ((a*b*c)-(a*c*c)+(b*c*c))/(2*((a*b)+(a*c)+(b*c)))
+//   console.log(x)
+//   console.log(y)
+// }
+// work(2,3,6)
+function test() {
+  let a1=Symbol(1);
+  let a2=Symbol(1);
+  console.log(a1===a2);
+  let a3=Symbol.for('a3');//判断是否注册过
+  let a4=Symbol.for('a3');
+  console.log(a3===a4);
+  console.log(a1,a2,a3,a4)
 }
-work(2,3,6)
+test()
