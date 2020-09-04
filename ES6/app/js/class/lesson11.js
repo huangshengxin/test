@@ -5,7 +5,7 @@
     _r:123
   };
 
-  let monitor=new Proxy(obj,{
+  let monitor=new Proxy(obj,{//代理对象
     // 拦截对象属性的读取
     get(target,key){
       return target[key].replace('2017','2018')

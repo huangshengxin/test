@@ -56,7 +56,7 @@
 
 
 {
-  let weakList=new WeakSet();
+  let weakList=new WeakSet();//只能是对象，不能遍历，没有size属性
 
   let arg={};
 

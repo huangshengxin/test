@@ -66,12 +66,10 @@
 // }
 // work(2,3,6)
 function test() {
-  let a1=Symbol(1);
-  let a2=Symbol(1);
-  console.log(a1===a2);
-  let a3=Symbol.for('a3');//判断是否注册过
-  let a4=Symbol.for('a3');
-  console.log(a3===a4);
-  console.log(a1,a2,a3,a4)
+  let map = new Map([['a',123],['b',456]]);
+  console.log('map args',map);
+  console.log('size',map.size);
+  console.log('delete',map.delete('a'),map);
+  console.log('clear',map.clear(),map);
 }
 test()
