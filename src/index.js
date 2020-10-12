@@ -65,11 +65,16 @@
 //   console.log(y)
 // }
 // work(2,3,6)
-function test() {
-  let map = new Map([['a',123],['b',456]]);
-  console.log('map args',map);
-  console.log('size',map.size);
-  console.log('delete',map.delete('a'),map);
-  console.log('clear',map.clear(),map);
+function test(target, arr) {
+  console.log(target.sort())
+  function sortNumber(a,b)
+{
+return a - b
 }
-test()
+  let maxList = target.sort(sortNumber)
+  let length = maxList.length
+  console.log(maxList,length)
+  console.log((maxList[0]-1) * (maxList[1]-1))
+  return 
+}
+test([10,2,5,2], [2, 4, 1, 3])
