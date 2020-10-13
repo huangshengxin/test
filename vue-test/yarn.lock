@@ -821,7 +821,7 @@
     "@babel/types" "^7.4.4"
     esutils "^2.0.2"
 
-"@babel/runtime@^7.11.0", "@babel/runtime@^7.8.4":
+"@babel/runtime@^7.10.5", "@babel/runtime@^7.11.0", "@babel/runtime@^7.7.2", "@babel/runtime@^7.8.4":
   version "7.11.2"
   resolved "https://registry.npm.taobao.org/@babel/runtime/download/@babel/runtime-7.11.2.tgz?cache=0&sync_timestamp=1596637820375&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40babel%2Fruntime%2Fdownload%2F%40babel%2Fruntime-7.11.2.tgz#f549c13c754cc40b87644b9fa9f09a6a95fe0736"
   integrity sha1-9UnBPHVMxAuHZEufqfCaapX+BzY=
@@ -4590,6 +4590,13 @@ import-from@^2.1.0:
   dependencies:
     resolve-from "^3.0.0"
 
+import-html-entry@^1.9.0:
+  version "1.9.3"
+  resolved "https://registry.yarnpkg.com/import-html-entry/-/import-html-entry-1.9.3.tgz#2542e45c87cfde3031a5dfc00644c1a8d2eabc81"
+  integrity sha512-r6bCdQDkPC1kM2RYbBb89CsbV1YMqPtmK3uwDOG/Llv40TU+vEnUFmCdFO5qszj/N6VkQOh0BY6Bgyd+881F6g==
+  dependencies:
+    "@babel/runtime" "^7.7.2"
+
 import-local@^2.0.0:
   version "2.0.0"
   resolved "https://registry.npm.taobao.org/import-local/download/import-local-2.0.0.tgz#55070be38a5993cf18ef6db7e961f5bee5c5a09d"
@@ -6750,6 +6757,17 @@ q@^1.1.2:
   resolved "https://registry.npm.taobao.org/q/download/q-1.5.1.tgz#7e32f75b41381291d04611f1bf14109ac00651d7"
   integrity sha1-fjL3W0E4EpHQRhHxvxQQmsAGUdc=
 
+qiankun@^2.0.26:
+  version "2.0.26"
+  resolved "https://registry.yarnpkg.com/qiankun/-/qiankun-2.0.26.tgz#0061a3285db57dd26bd88a62f18436fb5f7740c0"
+  integrity sha512-5Hb1wwkRB0sxrVxAcMaN6i6FC9SqFQu/G3FUBsQl7fGCUO8RT6ejhpl4IpcyfLBLsHnplT9cyJX/Ldd0lGrAMw==
+  dependencies:
+    "@babel/runtime" "^7.10.5"
+    import-html-entry "^1.9.0"
+    lodash "^4.17.11"
+    single-spa "^5.3.1"
+    tslib "^1.10.0"
+
 qs@6.7.0:
   version "6.7.0"
   resolved "https://registry.npm.taobao.org/qs/download/qs-6.7.0.tgz#41dc1a015e3d581f1621776be31afb2876a9b1bc"
@@ -7312,6 +7330,11 @@ simple-swizzle@^0.2.2:
   integrity sha1-pNprY1/8zMoz9w0Xy5JZLeleVXo=
   dependencies:
     is-arrayish "^0.3.1"
+
+single-spa@^5.3.1:
+  version "5.7.0"
+  resolved "https://registry.yarnpkg.com/single-spa/-/single-spa-5.7.0.tgz#aff15729360bff0802d2881a274b8d48a41681fb"
+  integrity sha512-EZGhrurlEW4biBBteI1zQt1GvoXyuAyXCo0GJfmgvpAE5329HBm2NBvnExA8wXrgjvtdWGC1Ah5iLamx2w4mfQ==
 
 slash@^1.0.0:
   version "1.0.0"
@@ -7947,7 +7970,7 @@ ts-pnp@^1.1.6:
   resolved "https://registry.npm.taobao.org/ts-pnp/download/ts-pnp-1.2.0.tgz#a500ad084b0798f1c3071af391e65912c86bca92"
   integrity sha1-pQCtCEsHmPHDBxrzkeZZEshrypI=
 
-tslib@^1.9.0:
+tslib@^1.10.0, tslib@^1.9.0:
   version "1.14.1"
   resolved "https://registry.npm.taobao.org/tslib/download/tslib-1.14.1.tgz?cache=0&sync_timestamp=1602286724979&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Ftslib%2Fdownload%2Ftslib-1.14.1.tgz#cf2d38bdc34a134bcaf1091c41f6619e2f672d00"
   integrity sha1-zy04vcNKE0vK8QkcQfZhni9nLQA=
@@ -8269,6 +8292,11 @@ vue-loader@^15.9.2:
     loader-utils "^1.1.0"
     vue-hot-reload-api "^2.3.0"
     vue-style-loader "^4.1.0"
+
+vue-router@^3.4.6:
+  version "3.4.6"
+  resolved "https://registry.yarnpkg.com/vue-router/-/vue-router-3.4.6.tgz#f7bda2c9a43d39837621c9a02ba7789f5daa24b2"
+  integrity sha512-kaXnB3pfFxhAJl/Mp+XG1HJMyFqrL/xPqV7oXlpXn4AwMmm6VNgf0nllW8ksflmZANfI4kdo0bVn/FYSsAolPQ==
 
 vue-style-loader@^4.1.0, vue-style-loader@^4.1.2:
   version "4.1.2"
