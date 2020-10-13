@@ -65,16 +65,16 @@
 //   console.log(y)
 // }
 // work(2,3,6)
-function test(target, arr) {
-  console.log(target.sort())
-  function sortNumber(a,b)
-{
-return a - b
-}
-  let maxList = target.sort(sortNumber)
-  let length = maxList.length
-  console.log(maxList,length)
-  console.log((maxList[0]-1) * (maxList[1]-1))
-  return 
-}
-test([10,2,5,2], [2, 4, 1, 3])
+// function test(target, arr) {
+//   console.log(target.sort())
+//   function sortNumber(a,b)
+// {
+// return a - b
+// }
+//   let maxList = target.sort(sortNumber)
+//   let length = maxList.length
+//   console.log(maxList,length)
+//   console.log((maxList[0]-1) * (maxList[1]-1))
+//   return 
+// }
+// test([10,2,5,2], [2, 4, 1, 3])

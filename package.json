@@ -31,5 +31,8 @@
     "webpack-cli": "^3.3.12",
     "webpack-dev-server": "^3.11.0"
   },
-  "dependencies": {}
+  "dependencies": {
+    "canvas-nest.js": "^2.0.4",
+    "vmc": "^1.2.37"
+  }
 }
