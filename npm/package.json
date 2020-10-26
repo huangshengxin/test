@@ -1,18 +1,7 @@
 {
-  "name": "vue-test",
+  "name": "npm",
   "version": "0.1.0",
   "private": true,
-  "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build --target lib --name hello src/components/HelloWorld.vue",
-    "lint": "vue-cli-service lint"
-  },
-  "dependencies": {
-    "core-js": "^3.6.5",
-    "qiankun": "^2.0.26",
-    "vue": "^3.0.0",
-    "vue-router": "^3.4.6"
-  },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",
     "@vue/cli-plugin-eslint": "~4.5.0",
@@ -21,6 +10,16 @@
     "babel-eslint": "^10.1.0",
     "eslint": "^6.7.2",
     "eslint-plugin-vue": "^7.0.0-0"
+  },
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "lib": "vue-cli-service build --target lib --name vcolorpicker --dest lib packages/index.js"
+  },
+  "dependencies": {
+    "core-js": "^3.6.5",
+    "vue": "^3.0.0"
   },
   "eslintConfig": {
     "root": true,
@@ -40,5 +39,7 @@
     "> 1%",
     "last 2 versions",
     "not dead"
-  ]
+  ],
+  "readme": "ERROR: No README data found!",
+  "_id": "npm@0.1.0"
 }
