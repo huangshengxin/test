@@ -78,3 +78,20 @@
 //   return 
 // }
 // test([10,2,5,2], [2, 4, 1, 3])
+
+
+
+function test(beginWord, endWord, wordList) {
+  let num = 0
+  console.log(beginWord)
+  let newStr = ""
+  for(item of beginWord){
+    console.log(item)
+    newStr = item
+  }
+  for (let i = 0;i < wordList.length;i++){
+    console.log(wordList[i])
+  }
+  return num
+}
+test("hit", "cog", ["hot","dot","dog","lot","log","cog"])
