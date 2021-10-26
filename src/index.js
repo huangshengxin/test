@@ -75,23 +75,28 @@
 //   let length = maxList.length
 //   console.log(maxList,length)
 //   console.log((maxList[0]-1) * (maxList[1]-1))
-//   return 
+//   return
 // }
 // test([10,2,5,2], [2, 4, 1, 3])
 
-
-
-function test(beginWord, endWord, wordList) {
-  let num = 0
-  console.log(beginWord)
-  let newStr = ""
-  for(item of beginWord){
-    console.log(item)
-    newStr = item
-  }
-  for (let i = 0;i < wordList.length;i++){
-    console.log(wordList[i])
-  }
-  return num
-}
-test("hit", "cog", ["hot","dot","dog","lot","log","cog"])
+// function test(beginWord, endWord, wordList) {
+//   let num = 0
+//   console.log(beginWord)
+//   let newStr = ''
+//   for (item of beginWord) {
+//     console.log(item)
+//     newStr = item
+//   }
+//   for (let i = 0; i < wordList.length; i++) {
+//     console.log(wordList[i])
+//   }
+//   return num
+// }
+// test('hit', 'cog', ['hot', 'dot', 'dog', 'lot', 'log', 'cog'])
+var num = [1, 2, 3, 4, 5]
+var res = num.reduce(function (total, num) {
+  console.log(total, num)
+  return total + num
+  //return total + Math.round(num);//对数组元素四舍五入并计算总和
+}, 0)
+console.log(res)
